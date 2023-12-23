@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) ,url(resim1.png);
+    background-size: cover; 
+    background-position: center;   
+    height: 90vh;  
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px; 
+}
+ ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    color: red;
+    transition: 0.7s;
+}
+ul li a i{
+    padding-left: 10px;
+}
+.res{
+    width: 200px;
+    height: 200px;
+    margin-left: 550px;
+}
+p{
+    color: rgb(224, 224, 224);
+}
+h2{
+  color: rgb(255, 240, 240);
+  margin-left: 550px;
+}
